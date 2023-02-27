@@ -39,5 +39,5 @@ jobs:
         if: github.event_name != 'pull_request'
         uses: docker://ghcr.io/dynatrace-innovationlab/peribolos:v0
         with:
-          args: ${{ env.PERIBOLOS_ARGS }} --github-token-path github-token --config-path peribolos.yaml # --confirm
+          args: ${{ env.PERIBOLOS_ARGS }} --github-token-path github-token --config-path peribolos.yaml --confirm
         
