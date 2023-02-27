@@ -14,22 +14,22 @@ repos:
 approvers: []
 
 maintainers:
-  - grabnerandi
-  - bacherfl
-  - laneli
-  - oleg-nenashev
-  - ermin-muratovic
-  - agrimmer
-  - Kirdock
-  - bradmccoydev
-  - thschue
-  - christian-kreuzberger-dtx
-  - warber
-  - RealAnna
-  - odubajDT
-  - AloisReitbauer
-  - johannes-b
-  - jetzlstorfer
-  - DavidPHirsch
+#  - grabnerandi
+#  - bacherfl
+#  - laneli
+#  - oleg-nenashev
+#  - ermin-muratovic
+#  - agrimmer
+#  - Kirdock
+#  - bradmccoydev
+#  - thschue
+#  - christian-kreuzberger-dtx
+#  - warber
+#  - RealAnna
+#  - odubajDT
+#  - AloisReitbauer
+#  - johannes-b
+#  - jetzlstorfer
+#  - DavidPHirsch
 
 admins: []

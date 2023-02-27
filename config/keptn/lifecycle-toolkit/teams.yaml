@@ -6,16 +6,18 @@ repos:
 
 # Admins have admin access to the repo
 admins:
-  - thschue
+#  - thschue
+  - aepfli
 
 # Maintainers have maintain access to the repo
 maintainers:
-  - bacherfl
-  - RealAnna
-  - odubajDT
-  - philipp-hinteregger
+#  - bacherfl
+#  - RealAnna
+#  - odubajDT
+#  - philipp-hinteregger
+  - aepfli-test
 
 # Approvers have write access to the repo, the scope is limited in CODEOWNERS
 approvers:
-  - StackScribe
+#  - StackScribe
 

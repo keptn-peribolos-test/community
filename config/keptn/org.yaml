@@ -1,7 +1,7 @@
 # org settings
 company: ""
-email: hello@keptn.sh
-billing_email: keptn@dynatrace.com
+#email: hello@keptn.sh
+#billing_email: keptn@dynatrace.com
 name: keptn
 description: Data-driven control plane for continuous delivery and operations
 has_organization_projects: true
@@ -10,79 +10,81 @@ default_repository_permission: read
 members_can_create_repositories: false
 
 admins:
-  # governance committee
-  - AlexsJones
-  - AnaMMedina21
-  - AloisReitbauer
-  # CNCF
-  - thelinuxfoundation
-  - caniszczyk
-  # emeritus
-  - DavidPHirsch
-  - jetzlstorfer
-  - johannes-b
-  - thisthat
-  # peribolos
-  - keptn-bot
+#  # governance committee
+#  - AlexsJones
+#  - AnaMMedina21
+#  - AloisReitbauer
+#  # CNCF
+#  - thelinuxfoundation
+#  - caniszczyk
+#  # emeritus
+#  - DavidPHirsch
+#  - jetzlstorfer
+#  - johannes-b
+#  - thisthat
+#  # peribolos
+#  - keptn-bot
+  - aepfli
 # org member settings
 members:
-  - AlexsJones
-  - AnaMMedina21
-  - aepfli
-  - afzal442
-  - agardnerIT
-  - agrimmer
-  - alipatton10
-  - arthurpitman
-  - bacherfl
-  - bradmccoydev
-  - checkelmann
-  - christian-kreuzberger-dtx
-  - ermin-muratovic
-  - eysk-io
-  - grabnerandi
-  - heinzburgstaller
-  - iamrajiv
-  - imsingh
-  - j-poecher
-  - jainammm
-  - jules1091
-  - Kavindu-Dodan
-  - Kirdock
-  - kristofre
-  - laneli
-  - martinhellwagner
-  - mehabhalodiya
-  - mowies
-  - nicoblak
-  - odubajDT
-  - oleg-nenashev
-  - pchila
-  - philipp-hinteregger
-  - ppcano
-  - Raffy23
-  - RealAnna
-  - renepanzar
-  - robertjahn
-  - sarahhuber001
-  - StackScribe
-  - TannerGabriel
-  - TannerGilbert
-  - telltale00
-  - thschue
-  - vadasambar
-  - warber
+#  - AlexsJones
+#  - AnaMMedina21
+#  - aepfli
+#  - afzal442
+#  - agardnerIT
+#  - agrimmer
+#  - alipatton10
+#  - arthurpitman
+#  - bacherfl
+#  - bradmccoydev
+#  - checkelmann
+#  - christian-kreuzberger-dtx
+#  - ermin-muratovic
+#  - eysk-io
+#  - grabnerandi
+#  - heinzburgstaller
+#  - iamrajiv
+#  - imsingh
+#  - j-poecher
+#  - jainammm
+#  - jules1091
+#  - Kavindu-Dodan
+#  - Kirdock
+#  - kristofre
+#  - laneli
+#  - martinhellwagner
+#  - mehabhalodiya
+#  - mowies
+#  - nicoblak
+#  - odubajDT
+#  - oleg-nenashev
+#  - pchila
+#  - philipp-hinteregger
+#  - ppcano
+#  - Raffy23
+#  - RealAnna
+#  - renepanzar
+#  - robertjahn
+#  - sarahhuber001
+#  - StackScribe
+#  - TannerGabriel
+#  - TannerGilbert
+#  - telltale00
+#  - thschue
+#  - vadasambar
+#  - warber
+  - aepfli-test
 
 teams:
   admins:
     members:
-      - mowies
-      - thisthat
+#      - mowies
+#      - thisthat
 
   maintainers:
     members:
-      - mowies
-      - thisthat
+#      - mowies
+#      - thisthat
 
   approvers:
     members: []
@@ -92,25 +94,26 @@ teams:
 
   governance-committee:
     members:
-      - AloisReitbauer
-      - AlexsJones
-      - AnaMMedina21
+#      - AloisReitbauer
+#      - AlexsJones
+#      - AnaMMedina21
+      - aepfli-test
 
   gsoc-2022:
     members:
-      - ppcano
-      - imsingh
-      - oleg-nenashev
-      - StackScribe
-      - afzal442
-      - bradmccoydev
-      - agardnerIT
-      - jainammm
-      - vadasambar
-      - thschue
-      - iamrajiv
-      - eysk-io
-      - mehabhalodiya
+#      - ppcano
+#      - imsingh
+#      - oleg-nenashev
+#      - StackScribe
+#      - afzal442
+#      - bradmccoydev
+#      - agardnerIT
+#      - jainammm
+#      - vadasambar
+#      - thschue
+#      - iamrajiv
+#      - eysk-io
+#      - mehabhalodiya
 
 repos:
   .github:

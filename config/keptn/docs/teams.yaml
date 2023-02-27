@@ -6,5 +6,5 @@ repos:
 approvers: []
 
 maintainers:
-  - StackScribe
+#  - StackScribe
   - aepfli

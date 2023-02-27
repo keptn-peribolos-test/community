@@ -8,7 +8,8 @@ repos:
 approvers: []
 
 maintainers:
-  - grabnerandi
-  - agardnerIT
+#  - grabnerandi
+#  - agardnerIT
+  - aepfli-test
 
 admins: []
