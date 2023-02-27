@@ -75,11 +75,12 @@ members:
 #  - vadasambar
 #  - warber
 #  - aepfli-test
+  - mowies
 
 teams:
   admins:
     members:
-#      - mowies
+      - mowies
 #      - thisthat
 
   maintainers:
