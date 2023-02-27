@@ -10,6 +10,9 @@ on:
   pull_request:
     branches: [ main ]
 
+env:
+  PERIBOLOS_ARGS: "--fix-org --fix-org-members --fix-repos --fix-team-members --fix-teams --min-admins=2"
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -26,8 +29,15 @@ jobs:
       - name: Preparing credentials
         run: echo ${{ secrets.PERIBOLOS_GH_TOKEN }} >> github-token # a secret with the user token to be used for execution
 
-      - name: Run Peribolos
+      - name: Run Peribolos Configuration Verification
+        if: github.event_name == 'pull_request'
         uses: docker://ghcr.io/dynatrace-innovationlab/peribolos:v0
         with:
-          # TODO add confirm before merge
-          args: --fix-org --fix-org-members --fix-repos --fix-team-members --fix-teams --github-token-path github-token --min-admins=2 --config-path peribolos.yaml
+          args: ${{ env.PERIBOLOS_ARGS }} --github-token-path github-token --config-path peribolos.yaml
+      
+      - name: Apply Peribolos Configuration 
+        if: github.event_name != 'pull_request'
+        uses: docker://ghcr.io/dynatrace-innovationlab/peribolos:v0
+        with:
+          args: ${{ env.PERIBOLOS_ARGS }} --github-token-path github-token --config-path peribolos.yaml # --confirm
+        

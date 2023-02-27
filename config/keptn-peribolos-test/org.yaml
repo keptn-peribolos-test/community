@@ -135,16 +135,16 @@ repos:
     has_projects: true
     has_wiki: false
     homepage: https://keptn.sh/community
-  dns.keptn.sh:
-    allow_merge_commit: false
-    allow_rebase_merge: false
-    allow_squash_merge: false
-    archived: true
-    description: Just like nip.io or xip.io, dns.keptn.sh is a magic domain name that
-      provides wildcard DNS for any IP address
-    has_issues: false
-    has_projects: true
-    homepage: https://keptn.sh
+  # dns.keptn.sh:
+  #   allow_merge_commit: false
+  #   allow_rebase_merge: false
+  #   allow_squash_merge: false
+  #   archived: true
+  #   description: Just like nip.io or xip.io, dns.keptn.sh is a magic domain name that
+  #     provides wildcard DNS for any IP address
+  #   has_issues: false
+  #   has_projects: true
+  #   homepage: https://keptn.sh
   enhancement-proposals:
     allow_merge_commit: false
     allow_rebase_merge: false
@@ -258,12 +258,12 @@ repos:
     has_projects: true
     has_wiki: false
     homepage: https://keptn.sh
-  kubernetes-utils:
-    allow_merge_commit: false
-    allow_rebase_merge: false
-    allow_squash_merge: false
-    archived: true
-    has_projects: true
+  # kubernetes-utils:
+  #   allow_merge_commit: false
+  #   allow_rebase_merge: false
+  #   allow_squash_merge: false
+  #   archived: true
+  #   has_projects: true
   lifecycle-toolkit:
     allow_merge_commit: false
     allow_rebase_merge: false
@@ -287,16 +287,16 @@ repos:
       Remediation'
     has_projects: true
     homepage: https://github.com/keptn/spec
-  toc:
-    allow_merge_commit: false
-    allow_rebase_merge: false
-    allow_squash_merge: false
-    archived: true
-    description: Technical Oversight Committee (TOC)
-    has_issues: false
-    has_projects: true
-    has_wiki: false
-    homepage: https://cncf.io/
+  # toc:
+  #   allow_merge_commit: false
+  #   allow_rebase_merge: false
+  #   allow_squash_merge: false
+  #   archived: true
+  #   description: Technical Oversight Committee (TOC)
+  #   has_issues: false
+  #   has_projects: true
+  #   has_wiki: false
+  #   homepage: https://cncf.io/
   tutorials:
     allow_merge_commit: false
     allow_rebase_merge: false
