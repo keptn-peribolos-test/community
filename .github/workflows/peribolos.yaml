@@ -11,7 +11,7 @@ on:
     branches: [ main ]
 
 env:
-  PERIBOLOS_ARGS: "--fix-org --fix-org-members --fix-repos --fix-team-members --fix-teams --min-admins=2"
+  PERIBOLOS_ARGS: "--fix-org --fix-org-members --fix-repos --fix-team-members --fix-teams --fix-team-repos --min-admins=2"
 
 jobs:
   build:
