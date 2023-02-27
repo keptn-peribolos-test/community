@@ -1,0 +1,23 @@
+repos:
+  - lifecycle-toolkit
+  - lifecycle-toolkit-charts
+  - wg-app-lifecycle
+  - helmify
+
+# Admins have admin access to the repo
+admins:
+#  - thschue
+  - aepfli
+
+# Maintainers have maintain access to the repo
+maintainers:
+#  - bacherfl
+#  - RealAnna
+#  - odubajDT
+#  - philipp-hinteregger
+  - aepfli-test
+
+# Approvers have write access to the repo, the scope is limited in CODEOWNERS
+approvers:
+#  - StackScribe
+
