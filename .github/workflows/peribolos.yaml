@@ -30,4 +30,4 @@ jobs:
         uses: docker://ghcr.io/dynatrace-innovationlab/peribolos:v0
         with:
           # TODO add confirm before merge
-          args: --fix-org --fix-org-members --fix-repos --fix-team-members --fix-teams --github-token-path github-token --min-admins=1 --config-path peribolos.yaml
+          args: --fix-org --fix-org-members --fix-repos --fix-team-members --fix-teams --github-token-path github-token --min-admins=2 --config-path peribolos.yaml

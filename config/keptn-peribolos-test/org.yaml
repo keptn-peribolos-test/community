@@ -25,6 +25,7 @@ admins:
 #  # peribolos
 #  - keptn-bot
   - aepfli
+  - aepfli-test
 # org member settings
 members:
 #  - AlexsJones
