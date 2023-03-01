@@ -76,6 +76,7 @@ members:
 #  - warber
 #  - aepfli-test
   - mowies
+  - thisthat
 
 teams:
   admins:
@@ -86,7 +87,7 @@ teams:
   maintainers:
     members:
 #      - mowies
-#      - thisthat
+      - thisthat
 
   approvers:
     members: []
