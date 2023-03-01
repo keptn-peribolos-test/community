@@ -7,3 +7,6 @@ repos:
 approvers: []
 
 maintainers: []
+
+admins:
+  - thisthat
