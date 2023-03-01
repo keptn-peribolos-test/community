@@ -4,12 +4,12 @@ repos:
   - examples
   - spec
   - integrations
-  - kubernetes-utils
+  # - kubernetes-utils
   - helm-charts
   - helm-charts-dev
   - get.keptn.sh
   - gh-automation
-  - dns.keptn.sh
+  #- dns.keptn.sh
 
 approvers: []
 

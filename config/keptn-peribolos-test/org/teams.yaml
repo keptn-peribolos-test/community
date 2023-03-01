@@ -2,7 +2,7 @@ repos:
   - enhancement-proposals
   - community
   - .github
-  - toc
+  # - toc
 
 approvers: []
 
