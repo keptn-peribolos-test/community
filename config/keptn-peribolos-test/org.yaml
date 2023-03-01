@@ -135,6 +135,14 @@ repos:
     description: adding a fance repo for the fun
     has_projects: true
     has_wiki: false
+  loveboat:
+    allow_merge_commit: false
+    allow_rebase_merge: false
+    allow_squash_merge: true
+    default_branch: main
+    description: adding a fancy repo for the fun
+    has_projects: true
+    has_wiki: false
   community:
     allow_merge_commit: false
     allow_rebase_merge: false
